@@ -1,0 +1,79 @@
+<br>
+<h1><p>Tipo Vehiculos</p></h1>
+<br>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <h2><p>Formulario Vehiculos</p></h2>
+        <form [formGroup]="formulario" >
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-3 col-form-label">Nombre</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="colFormLabel" name="nombre" formControlName="nombre" />
+            </div>
+          </div>
+          <div *ngIf="formulario.get('nombre').invalid && formulario.get('nombre').touched">
+            <p style="color: red;">El Nombre es requerido.</p>
+          </div>
+          <br>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-3 col-form-label">Descripcion</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="colFormLabel" name="descripcion" formControlName="descripcion" />
+            </div>
+          </div>
+          <div *ngIf="formulario.get('descripcion').invalid && formulario.get('descripcion').touched">
+            <p style="color: red;">El Descripcion es requerido.</p>
+          </div>
+          <br>
+          <label for="colFormLabel" class="col-sm-3 col-form-label">Estado</label>
+
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="estado" id="btnradio1" autocomplete="off" checked formControlName="estado" [value]="true">
+            <label class="btn btn-outline-primary" for="btnradio1">True</label>
+          
+            <input type="radio" class="btn-check" name="estado" id="btnradio2" autocomplete="off" formControlName="estado" [value]="false"> 
+            <label class="btn btn-outline-primary" for="btnradio2">False</label>
+          </div>
+      </form>
+        <br>
+        <p>
+        <button [disabled]="!mostrar" (click)="Crear()" type="button" class="btn btn-success">Crear</button>
+        <button (click)="Limpiar()" type="button" class="btn btn-secondary">Limpiar</button>
+        <button [disabled]="mostrar" (click)="Modificar()" type="button" class="btn btn-warning">Modificar</button>
+        <button [disabled]="mostrar" (click)="Cancelar()" type="button" class="btn btn-danger">Cancelar</button>
+        </p>
+      </div>
+      <div class="col-sm-7">
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let tipoVehiculo of tipoVehiculos, index as i">
+                <td>
+                  {{tipoVehiculo.idTipovehiculo}}
+                </td>
+                <td>
+                  {{tipoVehiculo.nombre}}
+                </td>
+                <td>
+                  {{tipoVehiculo.descripcion}}
+                </td>
+                <td>
+                  {{tipoVehiculo.estado}}
+                </td>
+                <td>
+                    <button (click)="Editar(tipoVehiculo)" type="button" class="btn btn-warning">Editar</button>
+                    <button (click)="Eliminar(tipoVehiculo.idTipovehiculo)" type="button" class="btn btn-danger">Eliminar</button>
+                </td>
+              </tr>
+          </table>
+      </div>
+    </div>
+  </div>

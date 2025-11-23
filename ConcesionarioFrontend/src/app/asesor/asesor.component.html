@@ -1,0 +1,104 @@
+<br>
+<h1><p>Asesor</p></h1>
+<br>
+<!-- BOOTSTRAP: contenedor con márgenes automáticos -->
+<div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <h2><p>Formulario Asesor</p></h2>
+        <form [formGroup]="formulario" >
+          <!-- BOOTSTRAP: Formulario -->
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-3 col-form-label">Nombre</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="colFormLabel" name="nombre" formControlName="nombre" />
+            </div>
+          </div>
+          <!-- BOOTSTRAP: Muestra mensajes de error en color rojo-->
+          <div *ngIf="formulario.get('nombre').invalid && formulario.get('nombre').touched">
+            <p style="color: red;">El Nombre es requerido.</p>
+          </div>
+          <br>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-3 col-form-label">Identificacion</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="colFormLabel" name="identificacion" formControlName="identificacion" />
+            </div>
+          </div>
+          <div *ngIf="formulario.get('identificacion').invalid && formulario.get('identificacion').touched">
+            <p style="color: red;">La Identificacion es requerido.</p>
+          </div>
+          <br>
+          <label for="colFormLabel" class="col-sm-3 col-form-label">Estado</label>
+          <!--BOOTSTRAP: Radio buttons-->
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="estado" id="btnradio1" autocomplete="off" checked formControlName="estado" [value]="true">
+            <label class="btn btn-outline-primary" for="btnradio1">True</label>
+            <input type="radio" class="btn-check" name="estado" id="btnradio2" autocomplete="off" formControlName="estado" [value]="false"> 
+            <label class="btn btn-outline-primary" for="btnradio2">False</label>
+          </div>
+          <br>
+          <br>
+          <label for="colFormLabel" class="col-sm-3 col-form-label">Departamento</label>
+          <!--BOOTSTRAP: Selects-->
+          <select class="col-sm-9" aria-label="Default select example" (change)="CapturarDepartamento($event)">
+              <option selected disabled>Seleccione un Departamento</option>
+              <option *ngFor="let departamento of departamentos" [ngValue]="departamento">{{departamento.nombre}}</option>
+          </select>
+          <label for="colFormLabel" class="col-sm-3 col-form-label">Ciudad</label>
+          <select class="col-sm-9" aria-label="Default select example" (change)="CapturarCiudad($event)">
+            <option selected disabled>Seleccione una Ciudad</option>
+            <option *ngFor="let filtroCiudad of filtroCiudades" [ngValue]="filtroCiudad">{{filtroCiudad.nombre}}</option>
+          </select>
+      </form>
+        <br>
+        <p>
+          <!--BOOTSTRAP: Botones de acción-->
+        <button [disabled]="!mostrar" (click)="Crear()" type="button" class="btn btn-success">Crear</button>
+        <button (click)="Limpiar()" type="button" class="btn btn-secondary">Limpiar</button>
+        <button [disabled]="mostrar" (click)="Modificar()" type="button" class="btn btn-warning">Modificar</button>
+        <button [disabled]="mostrar" (click)="Cancelar()" type="button" class="btn btn-danger">Cancelar</button>
+        </p>
+      </div>
+      <div class="col-sm-7">
+        <!--BOOTSTRAP: Tabla de datos-->
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Identificacion</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Departamento</th>
+                <th scope="col">Ciudad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let asesor of asesores, index as i">
+                <td>
+                  {{asesor.idAsesor}}
+                </td>
+                <td>
+                  {{asesor.nombre}}
+                </td>
+                <td>
+                  {{asesor.identificacion}}
+                </td>
+                <td>
+                  {{asesor.estado}}
+                </td>
+                <td>
+                  {{asesor.nombreDepartamento}}
+                </td>
+                <td>
+                  {{asesor.nombreCiudad}}
+                </td>
+                <td>
+                    <button (click)="Editar(asesor)" type="button" class="btn btn-warning">Editar</button>
+                    <button (click)="Eliminar(asesor.idAsesor)" type="button" class="btn btn-danger">Eliminar</button>
+                </td>
+              </tr>
+          </table>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-image: url('/assets/fondo-home.png');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+    text-align: center;
+    }
+
+.form-container {
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: flex-start;     /* centra vertical */
+  height: 100vh;           /* ocupa toda la altura de la pantalla */
+}
+
+form {
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: #a9a6a6;
+}
+
+.btn-space {
+  margin-left: 10px; /* espacio a la izquierda */
+}

@@ -1,0 +1,33 @@
+<div class="home-fondo">
+  <h1><p>Login</p></h1>
+  <div class="form-container">
+    <form [formGroup]="formulario" >
+          <!-- BOOTSTRAP: Formulario -->
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-3 col-form-label">Usuario</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="colFormLabel" name="usuario" formControlName="usuario" />
+            </div>
+          </div>
+          <!-- BOOTSTRAP: Muestra mensajes de error en color rojo-->
+          <div *ngIf="formulario.get('usuario').invalid && formulario.get('usuario').touched">
+            <p style="color: red;">El usuario es requerido.</p>
+          </div>
+          <br>
+          <div class="form-group row">
+            <label for="colFormLabel" class="col-sm-3 col-form-label">Clave</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" id="colFormLabel" name="clave" formControlName="clave" />
+            </div>
+          </div>
+          <div *ngIf="formulario.get('clave').invalid && formulario.get('clave').touched">
+            <p style="color: red;">La clave es requerido.</p>
+          </div>
+      </form>
+      <br>
+        <p>
+          <!--BOOTSTRAP: Botones de acción-->
+        <button (click)="login()" type="button" class="btn btn-secondary">Registrar</button>
+        </p>
+  </div>
+</div>

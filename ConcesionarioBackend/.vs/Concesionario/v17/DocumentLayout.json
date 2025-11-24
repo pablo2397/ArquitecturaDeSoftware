@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DEF6036-BC77-4F0D-ACD3-E495B22921E1}|Presentation\\Presentation.csproj|d:\\materias\\arquitecturadesoftware\\concesionariobackend\\presentation\\controllers\\tipovehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DEF6036-BC77-4F0D-ACD3-E495B22921E1}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\tipovehiculocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TipoVehiculoController.cs",
+              "DocumentMoniker": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Presentation\\Controllers\\TipoVehiculoController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\TipoVehiculoController.cs",
+              "ToolTip": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Presentation\\Controllers\\TipoVehiculoController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\TipoVehiculoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:16:59.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

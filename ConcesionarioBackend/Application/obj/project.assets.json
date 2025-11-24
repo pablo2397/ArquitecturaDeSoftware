@@ -1836,11 +1836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Concesionario\\ConcesionarioBackend\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Concesionario\\ConcesionarioBackend\\Application\\Application.csproj",
+      "projectPath": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-      "outputPath": "D:\\Concesionario\\ConcesionarioBackend\\Application\\obj\\",
+      "outputPath": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1861,8 +1861,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Concesionario\\ConcesionarioBackend\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Concesionario\\ConcesionarioBackend\\Domain\\Domain.csproj"
+            "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Domain\\Domain.csproj"
             }
           }
         }

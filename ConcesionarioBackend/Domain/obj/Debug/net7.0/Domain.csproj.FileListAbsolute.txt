@@ -10,3 +10,15 @@ D:\Concesionario\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.dll
 D:\Concesionario\ConcesionarioBackend\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Concesionario\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Concesionario\ConcesionarioBackend\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\bin\Debug\net7.0\Domain.dll
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.dll
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Materias\ArquitecturaDeSoftware\ConcesionarioBackend\Domain\obj\Debug\net7.0\ref\Domain.dll

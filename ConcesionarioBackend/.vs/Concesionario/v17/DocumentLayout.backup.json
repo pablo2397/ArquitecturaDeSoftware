@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E13BA4C-2928-492E-803A-0FF5B0612574}|Infrastructure\\Infrastructure.csproj|d:\\materias\\arquitecturadesoftware\\concesionariobackend\\infrastructure\\persistence\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E13BA4C-2928-492E-803A-0FF5B0612574}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DEF6036-BC77-4F0D-ACD3-E495B22921E1}|Presentation\\Presentation.csproj|d:\\materias\\arquitecturadesoftware\\concesionariobackend\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DEF6036-BC77-4F0D-ACD3-E495B22921E1}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF3DFCD-6F85-4F48-BCE0-E9224A1FC3EB}|Application\\Application.csproj|d:\\materias\\arquitecturadesoftware\\concesionariobackend\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF3DFCD-6F85-4F48-BCE0-E9224A1FC3EB}|Application\\Application.csproj|solutionrelative:application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Infrastructure\\Persistence\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Infrastructure\\Persistence\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:23:28.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:23:18.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Application\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\Materias\\ArquitecturaDeSoftware\\ConcesionarioBackend\\Application\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T05:23:12.942Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
